@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+   	background: url(https://cdn.pixabay.com/photo/2017/01/12/13/23/map-1974699_1280.png) no-repeat center center fixed;
+	background-size: cover;
+    min-height:100vh;
+	transition: 0.5s;
+	transition-timing-function: ease-in;
+}
+
+	
+.fact-box{
+	padding:3rem;
+	transition: 0.5s;
+	transition-timing-function: ease-in;
+}
+	
+#geodis{
+	font-size:30px;
+	padding-left:10px;
+	transition: 0.5s;
+	transition-timing-function: ease-in;
+	color:#06070E;
+}
+
+.fact{
+	transition: 0.5s;
+	transition-timing-function: ease-in;
+}
+
+.new-fact{
+    background-color: ;
+	font-size:15px;
+	border-radius: 5px;
+	cursor:pointer;
+	padding-bottom: 8px;
+	padding-top: 9px;
+	margin-top: 5px;
+    }
+
+.text-center{
+	text-align: center;
+}
+	
+.new-fact:hover{
+	opacity: 0.6;
+}
+
+.source{
+	margin:10px;
+	font-size:20px;
+	transition: 0.5s;
+	transition-timing-function: ease-in;
+}
+
+	
+.block {
+perspective: 150rem;
+position: absolute;
+top:25%;
+left: 27%;
+}
+
+.block__main {
+	min-width: 45vw;
+	position: absolute;
+	transition: all .8s ease;
+	backface-visibility: hidden;
+	box-shadow: 0rem 2rem 4rem #3c3744;
+	border-radius: .5rem;
+	background-color:#BCE278;
+}
